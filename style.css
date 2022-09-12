@@ -16,7 +16,6 @@
     left: 0;
     z-index: 999;
      font-family: sans-serif;
-    margin-bottom: 0px;
 }
 #navbar .logo{
     margin-top: 0px;
@@ -53,83 +52,19 @@
     width: 100%;
     height: 90%;
     min-height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(R2.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../R2.jpeg);
     background-size: cover;
     background-position: center;
     margin-top: 0px;
 }
-
-h2{
-    font-size: 50px;
-    margin-top: -300px;
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-h5{
-    font-size: 40px;
-    margin-top: 200px;
-    text-decoration: none;
-    color: black;
-    text-align: center;
-}
-.description{
+.videoA{
+    width: 100%;
+    height: 330px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(217, 217, 217, 0.2);   
-    width: 100%;
-    height: 500px;
-    font-family: sans-serif;
-    margin-bottom: 10px;
-}
-.texte1{
-    width: 20%;
-    height: 270px;
-    background: url(R3.JPG);
-    border-radius: 1000px;
-    background-size: cover;
-    background-position: center;
-    margin-top: -130px;
-    margin-bottom: 10px;
-    
-}
-.texte2{
-    width: 20%;
-    height: 270px;
-    background: url(IMG.JPG);
-    border-radius: 1000px;
-    background-size: cover;
-    background-position: center;
-    margin-top: -130px;
-    margin-bottom: 10px;
-}
-.texte3{
-    width: 20%;
-    height: 270px;
-    background: url(R1.jpeg);
-    border-radius: 1000px;
-    background-size: cover;
-    background-position: center;
-    margin-top: -130px;
-    margin-bottom: 10px;
-}
-.texte4{
-    width: 20%;
-    height: 270px;
-    background: url(IMG1.JPG);
-    border-radius: 1000px;
-    background-size: cover;
-    background-position: center;
-    margin-top: -130px;
-    margin-bottom: 10px;
-}
-p{
-    margin-top: 300px;
-    font-size: 15px;
-    margin-bottom: 10px;
-    text-align: justify;
+    margin-bottom: 45px;
+    margin-top: -500px;
 }
 .foote{
     background-color: rgba(0, 0, 0, 0.85);
@@ -138,46 +73,6 @@ p{
     color: white;
     width: 100%;
     height: 100px;
-}
-b{
-    text-decoration: none;
-    color: black;
-}
-/*   modal 11  */
-
-.modal {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  top: 0; right: 0;
-  bottom: 0; left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(77, 77, 77, .7);
-  transition: all .4s;
-}
-.modal:target {
-  visibility: visible;
-  opacity: 1;
-}
-.modal_content11 {
-  border-radius: 4px;
-  position: relative;
-  width: 500px;
-  max-width: 90%;
-  height: 570px;
-  background: white;
-  padding: 1em 1em;
-  align-items:center;
-  justify-content: space-around;
+    margin-top: 170px;
 }
 
-.modal_close11 {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: grey;
-  text-decoration: none;
-  font-size: 40px;
-}
