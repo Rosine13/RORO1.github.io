@@ -1,0 +1,183 @@
+.logo img{
+    width: 40%; 
+    height: 80px; 
+    margin-top: -50px; 
+    border-radius: 100px;
+    margin-left: 5px;
+}
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 0;
+    left: 0;
+    z-index: 999;
+     font-family: sans-serif;
+    margin-bottom: 0px;
+}
+#navbar .logo{
+    margin-top: 0px;
+    width: 5rem;
+   
+    margin-left: 30px;
+    z-index: 5;
+}
+#navbar .logo img{
+    width: 100%;
+    margin-top: 10%;
+}
+#navbar .nav-items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    margin: 25px 30px 25px 0;
+}
+#navbar .nav-items li{
+    margin: 0 1rem;
+}
+#navbar .nav-items li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+     font-family: sans-serif;
+}
+#navbar .nav-items li a:hover{
+    color: rgba(142, 182, 205, 0.90);
+}
+.UNA{
+
+    width: 100%;
+    height: 90%;
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(R2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 50px;
+    margin-top: -300px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+h5{
+    font-size: 40px;
+    margin-top: 200px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.2);   
+    width: 100%;
+    height: 500px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.texte1{
+    width: 20%;
+    height: 270px;
+    background: url(R3.JPG);
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -130px;
+    margin-bottom: 10px;
+    
+}
+.texte2{
+    width: 20%;
+    height: 270px;
+    background: url(IMG.JPG);
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -130px;
+    margin-bottom: 10px;
+}
+.texte3{
+    width: 20%;
+    height: 270px;
+    background: url(R1.jpeg);
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -130px;
+    margin-bottom: 10px;
+}
+.texte4{
+    width: 20%;
+    height: 270px;
+    background: url(IMG1.JPG);
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+    margin-top: -130px;
+    margin-bottom: 10px;
+}
+p{
+    margin-top: 300px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+.foote{
+    background-color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+b{
+    text-decoration: none;
+    color: black;
+}
+/*   modal 11  */
+
+.modal {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(77, 77, 77, .7);
+  transition: all .4s;
+}
+.modal:target {
+  visibility: visible;
+  opacity: 1;
+}
+.modal_content11 {
+  border-radius: 4px;
+  position: relative;
+  width: 500px;
+  max-width: 90%;
+  height: 570px;
+  background: white;
+  padding: 1em 1em;
+  align-items:center;
+  justify-content: space-around;
+}
+
+.modal_close11 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: grey;
+  text-decoration: none;
+  font-size: 40px;
+}
